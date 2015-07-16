@@ -226,3 +226,16 @@ $ rails s -e production
 </body>
 </html>
 ```
+
+### 19. Added Devise
+```ruby
+# Gemfile
+gem 'devise'
+```
+```bash
+$ rails generate devise:install
+$ rails generate devise User
+$ rails generate devise:views # generate views for later edits
+```
+
+### 20. Twitter bootstrap all the devise views

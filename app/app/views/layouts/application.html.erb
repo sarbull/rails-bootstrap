@@ -8,6 +8,13 @@
 <body>
   <%= render :partial => '/partials/nav' %>
 
+  <% if notice.present? or alert.present? %>
+    <div class="container">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </div>
+  <% end %>
+
   <div class="container">
     <%= yield %>
   </div>

@@ -1,5 +1,15 @@
 # rails-bootstrap
 
+## Start application
+```bash
+$ git clone git@github.com:sarbull/rails-bootstrap.git
+$ cd app
+$ bundle
+$ rake db:create
+$ rake db:migrate
+$ rails s -e production
+```
+
 ## Stages completed
 
 ### 1. Init

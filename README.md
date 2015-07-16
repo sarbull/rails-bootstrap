@@ -206,4 +206,23 @@ end
 $ rails s -e production
 ```
 
-### 18. Enjoy
+### 18. Enjoy!
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <link rel="stylesheet" media="all" href="/assets/application-03e92a9d5dc8d47350ec3e8fd9ad870e3ec5d4276fcf89859e619df6c5df001f.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rULhMYxIu6QAObVoEh5W5wg/Di0e44V2admKFAZXqBZ944vFtk/PwFYMmI1CPLCqIXAyN3J+xG/cJP/KgAFljg==" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to rails-bootstrap</h1>
+
+  </div>
+
+  <script src="/assets/application-4bce7f524161c89caddd047aceeeb0469218df67dc9ea982f1f777b2b6685e3a.js"></script>
+</body>
+</html>
+```

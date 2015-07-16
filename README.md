@@ -4,6 +4,7 @@
 ```bash
 $ git clone git@github.com:sarbull/rails-bootstrap.git
 $ cd app
+$ cp .env.sample .env # complete infos
 $ bundle
 $ rake db:create
 $ rake db:migrate

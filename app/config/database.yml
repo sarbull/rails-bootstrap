@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: <%= ENV['DATABASE_DEV'] %>
+  pool: 5
+  username: <%= ENV['USERNAME_DEV'] %>
+  password: <%= ENV['PASSWORD_DEV'] %>
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: <%= ENV['DATABASE_TEST'] %>
+  pool: 5
+  username: <%= ENV['USERNAME_TEST'] %>
+  password: <%= ENV['PASSWORD_TEST'] %>
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: <%= ENV['DATABASE_PROD'] %>
+  pool: 5
+  username: <%= ENV['USERNAME_PROD'] %>
+  password: <%= ENV['PASSWORD_PROD'] %>
